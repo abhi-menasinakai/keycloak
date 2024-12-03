@@ -29,7 +29,7 @@ KEYCLOAK server configuration using DOCKER COMPOSE
 
 5. nginx configuration
 
-   To host keycloak server I have used nginx server with self signed certificates. I have also used cipher suits for better security. Go throgh the nginx server config file for better understanding.
+   To host keycloak server I have used nginx server with self signed certificates. I have also used cipher suits for better security. Go throgh the nginx server config file for better understanding. Keycloak server will receive traffic from nginx using the reverse proxy mode.
 
 6. Mysql server:
 
