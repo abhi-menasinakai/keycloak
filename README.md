@@ -37,7 +37,7 @@ Keycloak server configuration using DOCKER
 
    I have used mysql server for database management. In case you want to migrate existing keycloak database. You may find errors due change in the migration policies. So please be careful on that one. Else you migrate the database tables one by one manually. In my case I have used default keycloak database itself and Imported all user and realm specific data manually.
 
-   I hope this works for you guys....! Thanks a ton for your pations, Cheers!!
+   I hope this works for you guys....! Thanks a ton for your valuable time, Cheers!!
 
 
 
