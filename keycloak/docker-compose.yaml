@@ -10,8 +10,8 @@ services:
       - /home/ubuntu/keycloak/ssl:/etc/keycloak/ssl
       - /home/ubuntu/keycloak/providers:/opt/keycloak/providers  
       #- /home/ubuntu/keycloak/themes:/opt/keycloak/themes
-      - /home/ubuntu/keycloak/scripts:/opt/keycloak/scripts  
-    entrypoint: ["/opt/keycloak/scripts/server.sh"]
+      - /home/ubuntu/keycloak/entryscripts:/opt/keycloak/entryscripts  
+    entrypoint: ["/opt/keycloak/entryscripts/server.sh"]
     depends_on:
       - mysql
     environment:
