@@ -1,4 +1,4 @@
-Keycloak server configuration using DOCKER COMPOSE
+KEYCLOAK server configuration using DOCKER COMPOSE
 =======
 1. Docker compose file
    
